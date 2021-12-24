@@ -1,2 +1,2 @@
 # Test-Compiler
-A Test language comipler implementation.
+A Test language compiler implementation.

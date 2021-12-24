@@ -6,7 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/e/MyProjects/CLionProjects/Test-Compiler/main.cpp
+/Users/mysong/Documents/Test-Compiler/Compiler.cpp
+Compiler.h
+/Users/mysong/Documents/Test-Compiler/Compiler.h
+
+/Users/mysong/Documents/Test-Compiler/Compiler.h
+tools/lexical.h
+/Users/mysong/Documents/Test-Compiler/tools/lexical.h
+tools/syntax.h
+/Users/mysong/Documents/Test-Compiler/tools/syntax.h
+tools/semantic.h
+/Users/mysong/Documents/Test-Compiler/tools/semantic.h
+
+/Users/mysong/Documents/Test-Compiler/main.cpp
 iostream
+/Users/mysong/Documents/Test-Compiler/iostream
+Compiler.h
+/Users/mysong/Documents/Test-Compiler/Compiler.h
+
+/Users/mysong/Documents/Test-Compiler/tools/lexical.h
+string
+-
+
+/Users/mysong/Documents/Test-Compiler/tools/semantic.h
+string
+-
+
+/Users/mysong/Documents/Test-Compiler/tools/syntax.h
+string
 -
 

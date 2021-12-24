@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/MyProjects/CLionProjects/Test-Compiler
+CMAKE_SOURCE_DIR = /Users/mysong/Documents/Test-Compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mysong/Documents/Test-Compiler/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -68,32 +68,92 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /Users/mysong/Documents/Test-Compiler/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+
+CMakeFiles/main.dir/tools/lexical.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/tools/lexical.cpp.o: ../tools/lexical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/tools/lexical.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/lexical.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp
+
+CMakeFiles/main.dir/tools/lexical.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/lexical.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp > CMakeFiles/main.dir/tools/lexical.cpp.i
+
+CMakeFiles/main.dir/tools/lexical.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/lexical.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp -o CMakeFiles/main.dir/tools/lexical.cpp.s
+
+CMakeFiles/main.dir/tools/syntax.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/tools/syntax.cpp.o: ../tools/syntax.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/tools/syntax.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/syntax.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp
+
+CMakeFiles/main.dir/tools/syntax.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/syntax.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp > CMakeFiles/main.dir/tools/syntax.cpp.i
+
+CMakeFiles/main.dir/tools/syntax.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/syntax.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp -o CMakeFiles/main.dir/tools/syntax.cpp.s
+
+CMakeFiles/main.dir/tools/semantic.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/tools/semantic.cpp.o: ../tools/semantic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/tools/semantic.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/semantic.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp
+
+CMakeFiles/main.dir/tools/semantic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/semantic.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp > CMakeFiles/main.dir/tools/semantic.cpp.i
+
+CMakeFiles/main.dir/tools/semantic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/semantic.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp -o CMakeFiles/main.dir/tools/semantic.cpp.s
+
+CMakeFiles/main.dir/Compiler.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Compiler.cpp.o: ../Compiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Compiler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Compiler.cpp.o -c /Users/mysong/Documents/Test-Compiler/Compiler.cpp
+
+CMakeFiles/main.dir/Compiler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Compiler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/Compiler.cpp > CMakeFiles/main.dir/Compiler.cpp.i
+
+CMakeFiles/main.dir/Compiler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Compiler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/Compiler.cpp -o CMakeFiles/main.dir/Compiler.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/tools/lexical.cpp.o" \
+"CMakeFiles/main.dir/tools/syntax.cpp.o" \
+"CMakeFiles/main.dir/tools/semantic.cpp.o" \
+"CMakeFiles/main.dir/Compiler.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/main.dir/main.cpp.o
-main.exe: CMakeFiles/main.dir/build.make
-main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/tools/lexical.cpp.o
+main: CMakeFiles/main.dir/tools/syntax.cpp.o
+main: CMakeFiles/main.dir/tools/semantic.cpp.o
+main: CMakeFiles/main.dir/Compiler.cpp.o
+main: CMakeFiles/main.dir/build.make
+main: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: main.exe
+CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/clean:
@@ -101,6 +161,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/e/MyProjects/CLionProjects/Test-Compiler /cygdrive/e/MyProjects/CLionProjects/Test-Compiler /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mysong/Documents/Test-Compiler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mysong/Documents/Test-Compiler /Users/mysong/Documents/Test-Compiler /Users/mysong/Documents/Test-Compiler/cmake-build-debug /Users/mysong/Documents/Test-Compiler/cmake-build-debug /Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

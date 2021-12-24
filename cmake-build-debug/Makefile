@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/MyProjects/CLionProjects/Test-Compiler
+CMAKE_SOURCE_DIR = /Users/mysong/Documents/Test-Compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mysong/Documents/Test-Compiler/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/DELL/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug/CMakeFiles /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles /Users/mysong/Documents/Test-Compiler/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/MyProjects/CLionProjects/Test-Compiler/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Compiler.o: Compiler.cpp.o
+.PHONY : Compiler.o
+
+# target to build an object file
+Compiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Compiler.cpp.o
+.PHONY : Compiler.cpp.o
+
+Compiler.i: Compiler.cpp.i
+.PHONY : Compiler.i
+
+# target to preprocess a source file
+Compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Compiler.cpp.i
+.PHONY : Compiler.cpp.i
+
+Compiler.s: Compiler.cpp.s
+.PHONY : Compiler.s
+
+# target to generate assembly for a file
+Compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Compiler.cpp.s
+.PHONY : Compiler.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +177,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tools/lexical.o: tools/lexical.cpp.o
+.PHONY : tools/lexical.o
+
+# target to build an object file
+tools/lexical.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.o
+.PHONY : tools/lexical.cpp.o
+
+tools/lexical.i: tools/lexical.cpp.i
+.PHONY : tools/lexical.i
+
+# target to preprocess a source file
+tools/lexical.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.i
+.PHONY : tools/lexical.cpp.i
+
+tools/lexical.s: tools/lexical.cpp.s
+.PHONY : tools/lexical.s
+
+# target to generate assembly for a file
+tools/lexical.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.s
+.PHONY : tools/lexical.cpp.s
+
+tools/semantic.o: tools/semantic.cpp.o
+.PHONY : tools/semantic.o
+
+# target to build an object file
+tools/semantic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.o
+.PHONY : tools/semantic.cpp.o
+
+tools/semantic.i: tools/semantic.cpp.i
+.PHONY : tools/semantic.i
+
+# target to preprocess a source file
+tools/semantic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.i
+.PHONY : tools/semantic.cpp.i
+
+tools/semantic.s: tools/semantic.cpp.s
+.PHONY : tools/semantic.s
+
+# target to generate assembly for a file
+tools/semantic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.s
+.PHONY : tools/semantic.cpp.s
+
+tools/syntax.o: tools/syntax.cpp.o
+.PHONY : tools/syntax.o
+
+# target to build an object file
+tools/syntax.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.o
+.PHONY : tools/syntax.cpp.o
+
+tools/syntax.i: tools/syntax.cpp.i
+.PHONY : tools/syntax.i
+
+# target to preprocess a source file
+tools/syntax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.i
+.PHONY : tools/syntax.cpp.i
+
+tools/syntax.s: tools/syntax.cpp.s
+.PHONY : tools/syntax.s
+
+# target to generate assembly for a file
+tools/syntax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.s
+.PHONY : tools/syntax.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... Compiler.o"
+	@echo "... Compiler.i"
+	@echo "... Compiler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tools/lexical.o"
+	@echo "... tools/lexical.i"
+	@echo "... tools/lexical.s"
+	@echo "... tools/semantic.o"
+	@echo "... tools/semantic.i"
+	@echo "... tools/semantic.s"
+	@echo "... tools/syntax.o"
+	@echo "... tools/syntax.i"
+	@echo "... tools/syntax.s"
 .PHONY : help
 
 
