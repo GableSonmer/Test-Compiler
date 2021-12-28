@@ -1,8 +1,20 @@
+#include "string"
+#include <cstdio>
 #include <string>
+
+#define MAXVARTABLEP 500 // 定义符号表的容量
+#define MAXFILENAME 100  // 文件名最大长度
+#define MAXLENGTH 40     // 字符串最大长度
 
 using namespace std;
 
-int startSyntaxAnalysis(string in, string out);
+int name_def(char *name);
+
+int lookup(char *name, int *paddress);
+
+void getNextLineToken();
+
+int startSemanticAnalysis(string in, string out);
 
 int TESTparse();
 

@@ -4,21 +4,22 @@
 CMakeFiles/main.dir/Compiler.cpp.o: \
  ../Compiler.cpp \
  ../Compiler.h \
- ../tools/lexical.h \
- ../tools/semantic.h \
- ../tools/syntax.h
+ ../lib/lexical/lexical.h \
+ ../lib/machine/machine.h \
+ ../lib/semantic/semantic.h
+CMakeFiles/main.dir/lib/lexical/lexical.cpp.o: \
+ ../lib/lexical/lexical.cpp \
+ ../lib/lexical/lexical.h \
+ ../lib/tools/HashMap.h
+CMakeFiles/main.dir/lib/machine/machine.cpp.o: \
+ ../lib/machine/machine.cpp \
+ ../lib/machine/machine.h
+CMakeFiles/main.dir/lib/semantic/semantic.cpp.o: \
+ ../lib/semantic/semantic.cpp \
+ ../lib/semantic/semantic.h
 CMakeFiles/main.dir/main.cpp.o: \
  ../Compiler.h \
- ../main.cpp \
- ../tools/lexical.h \
- ../tools/semantic.h \
- ../tools/syntax.h
-CMakeFiles/main.dir/tools/lexical.cpp.o: \
- ../tools/lexical.cpp \
- ../tools/lexical.h
-CMakeFiles/main.dir/tools/semantic.cpp.o: \
- ../tools/semantic.cpp \
- ../tools/semantic.h
-CMakeFiles/main.dir/tools/syntax.cpp.o: \
- ../tools/syntax.cpp \
- ../tools/syntax.h
+ ../lib/lexical/lexical.h \
+ ../lib/machine/machine.h \
+ ../lib/semantic/semantic.h \
+ ../main.cpp

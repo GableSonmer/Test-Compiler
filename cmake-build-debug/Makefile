@@ -153,6 +153,78 @@ Compiler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Compiler.cpp.s
 .PHONY : Compiler.cpp.s
 
+lib/lexical/lexical.o: lib/lexical/lexical.cpp.o
+.PHONY : lib/lexical/lexical.o
+
+# target to build an object file
+lib/lexical/lexical.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/lexical/lexical.cpp.o
+.PHONY : lib/lexical/lexical.cpp.o
+
+lib/lexical/lexical.i: lib/lexical/lexical.cpp.i
+.PHONY : lib/lexical/lexical.i
+
+# target to preprocess a source file
+lib/lexical/lexical.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/lexical/lexical.cpp.i
+.PHONY : lib/lexical/lexical.cpp.i
+
+lib/lexical/lexical.s: lib/lexical/lexical.cpp.s
+.PHONY : lib/lexical/lexical.s
+
+# target to generate assembly for a file
+lib/lexical/lexical.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/lexical/lexical.cpp.s
+.PHONY : lib/lexical/lexical.cpp.s
+
+lib/machine/machine.o: lib/machine/machine.cpp.o
+.PHONY : lib/machine/machine.o
+
+# target to build an object file
+lib/machine/machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/machine/machine.cpp.o
+.PHONY : lib/machine/machine.cpp.o
+
+lib/machine/machine.i: lib/machine/machine.cpp.i
+.PHONY : lib/machine/machine.i
+
+# target to preprocess a source file
+lib/machine/machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/machine/machine.cpp.i
+.PHONY : lib/machine/machine.cpp.i
+
+lib/machine/machine.s: lib/machine/machine.cpp.s
+.PHONY : lib/machine/machine.s
+
+# target to generate assembly for a file
+lib/machine/machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/machine/machine.cpp.s
+.PHONY : lib/machine/machine.cpp.s
+
+lib/semantic/semantic.o: lib/semantic/semantic.cpp.o
+.PHONY : lib/semantic/semantic.o
+
+# target to build an object file
+lib/semantic/semantic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/semantic/semantic.cpp.o
+.PHONY : lib/semantic/semantic.cpp.o
+
+lib/semantic/semantic.i: lib/semantic/semantic.cpp.i
+.PHONY : lib/semantic/semantic.i
+
+# target to preprocess a source file
+lib/semantic/semantic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/semantic/semantic.cpp.i
+.PHONY : lib/semantic/semantic.cpp.i
+
+lib/semantic/semantic.s: lib/semantic/semantic.cpp.s
+.PHONY : lib/semantic/semantic.s
+
+# target to generate assembly for a file
+lib/semantic/semantic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/semantic/semantic.cpp.s
+.PHONY : lib/semantic/semantic.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,78 +249,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tools/lexical.o: tools/lexical.cpp.o
-.PHONY : tools/lexical.o
-
-# target to build an object file
-tools/lexical.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.o
-.PHONY : tools/lexical.cpp.o
-
-tools/lexical.i: tools/lexical.cpp.i
-.PHONY : tools/lexical.i
-
-# target to preprocess a source file
-tools/lexical.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.i
-.PHONY : tools/lexical.cpp.i
-
-tools/lexical.s: tools/lexical.cpp.s
-.PHONY : tools/lexical.s
-
-# target to generate assembly for a file
-tools/lexical.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/lexical.cpp.s
-.PHONY : tools/lexical.cpp.s
-
-tools/semantic.o: tools/semantic.cpp.o
-.PHONY : tools/semantic.o
-
-# target to build an object file
-tools/semantic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.o
-.PHONY : tools/semantic.cpp.o
-
-tools/semantic.i: tools/semantic.cpp.i
-.PHONY : tools/semantic.i
-
-# target to preprocess a source file
-tools/semantic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.i
-.PHONY : tools/semantic.cpp.i
-
-tools/semantic.s: tools/semantic.cpp.s
-.PHONY : tools/semantic.s
-
-# target to generate assembly for a file
-tools/semantic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/semantic.cpp.s
-.PHONY : tools/semantic.cpp.s
-
-tools/syntax.o: tools/syntax.cpp.o
-.PHONY : tools/syntax.o
-
-# target to build an object file
-tools/syntax.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.o
-.PHONY : tools/syntax.cpp.o
-
-tools/syntax.i: tools/syntax.cpp.i
-.PHONY : tools/syntax.i
-
-# target to preprocess a source file
-tools/syntax.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.i
-.PHONY : tools/syntax.cpp.i
-
-tools/syntax.s: tools/syntax.cpp.s
-.PHONY : tools/syntax.s
-
-# target to generate assembly for a file
-tools/syntax.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tools/syntax.cpp.s
-.PHONY : tools/syntax.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,18 +261,18 @@ help:
 	@echo "... Compiler.o"
 	@echo "... Compiler.i"
 	@echo "... Compiler.s"
+	@echo "... lib/lexical/lexical.o"
+	@echo "... lib/lexical/lexical.i"
+	@echo "... lib/lexical/lexical.s"
+	@echo "... lib/machine/machine.o"
+	@echo "... lib/machine/machine.i"
+	@echo "... lib/machine/machine.s"
+	@echo "... lib/semantic/semantic.o"
+	@echo "... lib/semantic/semantic.i"
+	@echo "... lib/semantic/semantic.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tools/lexical.o"
-	@echo "... tools/lexical.i"
-	@echo "... tools/lexical.s"
-	@echo "... tools/semantic.o"
-	@echo "... tools/semantic.i"
-	@echo "... tools/semantic.s"
-	@echo "... tools/syntax.o"
-	@echo "... tools/syntax.i"
-	@echo "... tools/syntax.s"
 .PHONY : help
 
 

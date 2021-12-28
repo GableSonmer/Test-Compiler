@@ -79,48 +79,9 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/tools/lexical.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/tools/lexical.cpp.o: ../tools/lexical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/tools/lexical.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/lexical.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp
-
-CMakeFiles/main.dir/tools/lexical.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/lexical.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp > CMakeFiles/main.dir/tools/lexical.cpp.i
-
-CMakeFiles/main.dir/tools/lexical.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/lexical.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/lexical.cpp -o CMakeFiles/main.dir/tools/lexical.cpp.s
-
-CMakeFiles/main.dir/tools/syntax.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/tools/syntax.cpp.o: ../tools/syntax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/tools/syntax.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/syntax.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp
-
-CMakeFiles/main.dir/tools/syntax.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/syntax.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp > CMakeFiles/main.dir/tools/syntax.cpp.i
-
-CMakeFiles/main.dir/tools/syntax.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/syntax.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/syntax.cpp -o CMakeFiles/main.dir/tools/syntax.cpp.s
-
-CMakeFiles/main.dir/tools/semantic.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/tools/semantic.cpp.o: ../tools/semantic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/tools/semantic.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/semantic.cpp.o -c /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp
-
-CMakeFiles/main.dir/tools/semantic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/semantic.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp > CMakeFiles/main.dir/tools/semantic.cpp.i
-
-CMakeFiles/main.dir/tools/semantic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/semantic.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/tools/semantic.cpp -o CMakeFiles/main.dir/tools/semantic.cpp.s
-
 CMakeFiles/main.dir/Compiler.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Compiler.cpp.o: ../Compiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Compiler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Compiler.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Compiler.cpp.o -c /Users/mysong/Documents/Test-Compiler/Compiler.cpp
 
 CMakeFiles/main.dir/Compiler.cpp.i: cmake_force
@@ -131,22 +92,61 @@ CMakeFiles/main.dir/Compiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Compiler.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/Compiler.cpp -o CMakeFiles/main.dir/Compiler.cpp.s
 
+CMakeFiles/main.dir/lib/lexical/lexical.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/lexical/lexical.cpp.o: ../lib/lexical/lexical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/lib/lexical/lexical.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/lexical/lexical.cpp.o -c /Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.cpp
+
+CMakeFiles/main.dir/lib/lexical/lexical.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/lexical/lexical.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.cpp > CMakeFiles/main.dir/lib/lexical/lexical.cpp.i
+
+CMakeFiles/main.dir/lib/lexical/lexical.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/lexical/lexical.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.cpp -o CMakeFiles/main.dir/lib/lexical/lexical.cpp.s
+
+CMakeFiles/main.dir/lib/semantic/semantic.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/semantic/semantic.cpp.o: ../lib/semantic/semantic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/lib/semantic/semantic.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/semantic/semantic.cpp.o -c /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp
+
+CMakeFiles/main.dir/lib/semantic/semantic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/semantic/semantic.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp > CMakeFiles/main.dir/lib/semantic/semantic.cpp.i
+
+CMakeFiles/main.dir/lib/semantic/semantic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/semantic/semantic.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp -o CMakeFiles/main.dir/lib/semantic/semantic.cpp.s
+
+CMakeFiles/main.dir/lib/machine/machine.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/machine/machine.cpp.o: ../lib/machine/machine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/lib/machine/machine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/machine/machine.cpp.o -c /Users/mysong/Documents/Test-Compiler/lib/machine/machine.cpp
+
+CMakeFiles/main.dir/lib/machine/machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/machine/machine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mysong/Documents/Test-Compiler/lib/machine/machine.cpp > CMakeFiles/main.dir/lib/machine/machine.cpp.i
+
+CMakeFiles/main.dir/lib/machine/machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/machine/machine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mysong/Documents/Test-Compiler/lib/machine/machine.cpp -o CMakeFiles/main.dir/lib/machine/machine.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/tools/lexical.cpp.o" \
-"CMakeFiles/main.dir/tools/syntax.cpp.o" \
-"CMakeFiles/main.dir/tools/semantic.cpp.o" \
-"CMakeFiles/main.dir/Compiler.cpp.o"
+"CMakeFiles/main.dir/Compiler.cpp.o" \
+"CMakeFiles/main.dir/lib/lexical/lexical.cpp.o" \
+"CMakeFiles/main.dir/lib/semantic/semantic.cpp.o" \
+"CMakeFiles/main.dir/lib/machine/machine.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/tools/lexical.cpp.o
-main: CMakeFiles/main.dir/tools/syntax.cpp.o
-main: CMakeFiles/main.dir/tools/semantic.cpp.o
 main: CMakeFiles/main.dir/Compiler.cpp.o
+main: CMakeFiles/main.dir/lib/lexical/lexical.cpp.o
+main: CMakeFiles/main.dir/lib/semantic/semantic.cpp.o
+main: CMakeFiles/main.dir/lib/machine/machine.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"

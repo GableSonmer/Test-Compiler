@@ -5,9 +5,14 @@ int Compiler::lexicalAnalysis(string src, string output) {
 }
 
 int Compiler::syntaxAnalysis(string src, string out) {
-    return startSyntaxAnalysis(src, out);
+    return 1;
+//    return startSyntaxAnalysis(src, out);
 }
 
 int Compiler::semanticAnalysis(string src, string out) {
     return startSemanticAnalysis(src, out);
+}
+
+int Compiler::runMachine(string assembly) {
+    return run(assembly);
 }

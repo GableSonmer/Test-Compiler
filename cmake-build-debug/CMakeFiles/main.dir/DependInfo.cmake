@@ -9,10 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mysong/Documents/Test-Compiler/Compiler.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/Compiler.cpp.o"
+  "/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/lib/lexical/lexical.cpp.o"
+  "/Users/mysong/Documents/Test-Compiler/lib/machine/machine.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/lib/machine/machine.cpp.o"
+  "/Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/lib/semantic/semantic.cpp.o"
   "/Users/mysong/Documents/Test-Compiler/main.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
-  "/Users/mysong/Documents/Test-Compiler/tools/lexical.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/tools/lexical.cpp.o"
-  "/Users/mysong/Documents/Test-Compiler/tools/semantic.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/tools/semantic.cpp.o"
-  "/Users/mysong/Documents/Test-Compiler/tools/syntax.cpp" "/Users/mysong/Documents/Test-Compiler/cmake-build-debug/CMakeFiles/main.dir/tools/syntax.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

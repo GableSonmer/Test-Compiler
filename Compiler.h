@@ -1,6 +1,8 @@
-#include "tools/lexical.h"
-#include "tools/syntax.h"
-#include "tools/semantic.h"
+#include "iostream"
+#include "lib/lexical/lexical.h"
+//#include "lib/syntax/syntax.h"
+#include "lib/semantic/semantic.h"
+#include "lib/machine/machine.h"
 
 using namespace std;
 
@@ -11,4 +13,6 @@ public:
     int syntaxAnalysis(string in, string out);
 
     int semanticAnalysis(string in, string out);
+
+    int runMachine(string assembly);
 };

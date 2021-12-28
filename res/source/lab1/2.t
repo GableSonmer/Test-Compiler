@@ -3,5 +3,5 @@
 */
 {
 	int a, b, c;
-	write "Hello World";
+	write "HelloWorld";
 }

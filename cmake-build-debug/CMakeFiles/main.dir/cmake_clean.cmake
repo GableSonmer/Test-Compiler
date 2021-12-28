@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Compiler.cpp.o"
+  "CMakeFiles/main.dir/lib/lexical/lexical.cpp.o"
+  "CMakeFiles/main.dir/lib/machine/machine.cpp.o"
+  "CMakeFiles/main.dir/lib/semantic/semantic.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
-  "CMakeFiles/main.dir/tools/lexical.cpp.o"
-  "CMakeFiles/main.dir/tools/semantic.cpp.o"
-  "CMakeFiles/main.dir/tools/syntax.cpp.o"
   "main"
   "main.pdb"
 )
