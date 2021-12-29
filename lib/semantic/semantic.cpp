@@ -211,7 +211,8 @@ int statement() {
     else if ((strcmp(token, "ID") == 0 || strcmp(token, "NUM") == 0 ||
               strcmp(token, "(") == 0) || strcmp(token, ";") == 0)
         es = expression_stat(); // <表达式语句>
-    else if (strcmp(token, "int") == 0) es = 27;//非法的定义语句
+//    else if (strcmp(token, "int") == 0) es = 27;//非法的定义语句
+    else if (strcmp(token, "int") == 0) es = declaration_list();//非法的定义语句
     else if (strcmp(token, "EOF") == 0) es = 25;//文件结尾
     else es = 29;
     return es;

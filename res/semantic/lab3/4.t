@@ -1,10 +1,27 @@
-        LOADI 1
-        STO 0
+        IN   
+        STO   0
         POP
-        LOADI 1
-        STO 1
+        LOAD 0
+        STO 3
         POP
-        LOADI 1
-        STO 2
-        POP
+        LOAD 0
+        LOADI 2
+        ADD
+        OUT
+        LOAD 0
+        LOADI 2
+        SUB
+        OUT
+        LOAD 0
+        LOADI 2
+        MULT
+        OUT
+        LOAD 0
+        LOADI 2
+        DIV
+        OUT
+        LOAD 0
+        LOADI 2
+        MOD
+        OUT
         STOP

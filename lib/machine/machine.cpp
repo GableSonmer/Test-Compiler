@@ -54,7 +54,7 @@ int TESTmachine() {
             j++;
         }
         codecnt++;
-        i = fscanf(fin, "%s", &code[codecnt]);
+        i = fscanf(fin, "%s", code[codecnt]);
     }
     fclose(fin);
 

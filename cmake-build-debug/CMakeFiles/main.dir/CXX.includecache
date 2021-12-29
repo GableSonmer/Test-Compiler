@@ -6,31 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/mysong/Documents/Test-Compiler/Compiler.h
-iostream
-/Users/mysong/Documents/Test-Compiler/iostream
-lib/lexical/lexical.h
-/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.h
-lib/semantic/semantic.h
+/Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp
+semantic.h
 /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.h
-lib/machine/machine.h
-/Users/mysong/Documents/Test-Compiler/lib/machine/machine.h
-
-/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.h
-string
--
-
-/Users/mysong/Documents/Test-Compiler/lib/machine/machine.h
-iostream
--
-cstdio
--
-cctype
--
-cstdlib
--
-cstring
--
 
 /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.h
 string
@@ -39,8 +17,4 @@ cstdio
 -
 string
 -
-
-/Users/mysong/Documents/Test-Compiler/main.cpp
-Compiler.h
-/Users/mysong/Documents/Test-Compiler/Compiler.h
 

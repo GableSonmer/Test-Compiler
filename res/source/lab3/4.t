@@ -1,6 +1,11 @@
 {
     int a,b,c;
-    a=1;
-    b=1;
-    c=1;
+    read a;
+    int d;
+    d = a;
+    write a+2;
+    write a-2;
+    write a*2;
+    write a/2;
+    write a%2;
 }
