@@ -4,11 +4,9 @@
 #include "lexical.h"
 #include "../tools/HashMap.h"
 #include "cstdio"
-#include "iostream"
 #include "cstring"
 
 #define MaxFilenameLength 100
-#define KeywordNumber 9
 #define MaxIDLength 39
 
 char inPath[MaxFilenameLength], outPath[MaxFilenameLength];
@@ -114,17 +112,17 @@ int TESTScan() {
             //使用哈希表查询标识符
             if (map.get(token) == 1) {
                 //查询成功，为保留字
-                fprintf(out, "%s %s %d %d\n", token, token, rowNumber, col);
+                fprintf(out, "%d %d %s %s\n", rowNumber, col, token, token);
             } else {
                 //查询失败，为标识符
                 //判断标识符长度，如果超过最大长度直接报错
                 if (strlen(token) <= MaxIDLength) {
-                    fprintf(out, "ID %s %d %d\n", token, rowNumber, col);
+                    fprintf(out, "%d %d ID %s\n", rowNumber, col, token);
                 } else {
                     printf("ERROR(%d行,%d列): 标识符%s长度(%lu)超出最大限制(%d)\n",
                            rowNumber, col, token, strlen(token), MaxIDLength);
                     es = 3;
-                    fprintf(out, "ERROR %s %d %d\n", token, rowNumber, col);
+                    fprintf(out, "%d %d ERROR %s\n", rowNumber, col, token);
                 }
             }
         } else if (isdigit(ch)) {
@@ -137,12 +135,12 @@ int TESTScan() {
             }
             token[i] = '\0';
             int col = colNumber - strlen(token) - 1;
-            fprintf(out, "NUM %s %d %d\n", token, rowNumber, col);
+            fprintf(out, "%d %d NUM %s\n", rowNumber, col, token);
         } else if (strchr(singleword, ch) != NULL) {
             token[0] = ch;
             token[1] = '\0';
             int col = colNumber - strlen(token);
-            fprintf(out, "%s %s %d %d\n", token, token, rowNumber, col);
+            fprintf(out, "%d %d %s %s\n", rowNumber, col, token, token);
             ch = getNextChar();
         } else if (strchr(doubleword, ch) != NULL) {
             token[0] = ch;
@@ -155,7 +153,7 @@ int TESTScan() {
                 token[1] = '\0';
             }
             int col = colNumber - strlen(token);
-            fprintf(out, "%s %s %d %d\n", token, token, rowNumber, col);
+            fprintf(out, "%d %d %s %s\n", rowNumber, col, token, token);
         } else if (ch == '/') {
             ch = getNextChar();
             if (ch == '*') {
@@ -169,7 +167,7 @@ int TESTScan() {
                 token[0] = '/';
                 token[1] = '\0';
                 int col = colNumber - strlen(token);
-                fprintf(out, "%s %s %d %d\n", token, token, rowNumber, col);
+                fprintf(out, "%d %d %s %s\n", rowNumber, col, token, token);
             }
         } else if (ch == '\"') {
             int i = 0;
@@ -180,7 +178,7 @@ int TESTScan() {
             }
             token[i] = '\0';
             int col = colNumber - strlen(token);
-            fprintf(out, "STRING %s %d %d\n", token, rowNumber, col);
+            fprintf(out, "%d %d STRING %s\n", rowNumber, col, token);
             ch = getNextChar();
         } else {
             token[0] = ch;
@@ -192,12 +190,12 @@ int TESTScan() {
             }
             es = 4;
             int col = colNumber - strlen(token);
-            fprintf(out, "ERROR %s %d %d\n", token, rowNumber, col);
+            fprintf(out, "%d %d ERROR %s\n", rowNumber, col, token);
             printf("ERROR(行:%d,列:%d): 符号\"%s\"错误\n", rowNumber, col, token);
             ch = getNextChar();
         }
     }
-    fprintf(out, "EOF EOF %d %d\n", rowNumber, colNumber);
+    fprintf(out, "%d %d EOF EOF\n", rowNumber, colNumber);
     fclose(in);
     fclose(out);
     return es;

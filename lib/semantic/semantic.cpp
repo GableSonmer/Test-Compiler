@@ -24,7 +24,8 @@ int startSemanticAnalysis(string in, string out) {
 int wrow, wcol;
 
 void getNextLineToken() {
-    fscanf(fin, "%s %s %d %d\n", token, token1, &wrow, &wcol);
+//    fscanf(fin, "%s %s %d %d\n", token, token1, &wrow, &wcol);
+    fscanf(fin, "%d %d %s %s\n", &wrow, &wcol, token, token1);
 }
 
 int TESTparse() {
@@ -431,11 +432,11 @@ int read_stat() {
 // @ OUT：输出 OUT
 int write_stat() {
     int es = 0;
-//    fscanf(fin, "%s ",token);
-    getNextLineToken();
+    fscanf(fin, "%d %d %s ", &wrow, &wcol, token);
+//    getNextLineToken();
     printf("%s ", token);
     if (strcmp(token, "STRING") == 0) { // 输出字符串
-//        fgets(token1, 1024, fin);
+        fgets(token1, 1024, fin);
         printf("%s", token1);
         fprintf(fout, "        OUTS %s\n", token1); // 由于字符串不参与运算，单独考虑，定义OUTS为输出字符串指令
         getNextLineToken();
@@ -446,7 +447,7 @@ int write_stat() {
         printf("%s %s\n", token, token1);
         return es;
     }
-//    fscanf(fin, "%s", &token1);
+    fscanf(fin, "%s", token1);
     printf("%s\n", token1);
     es = expression();
     if (es > 0) return es;
@@ -485,10 +486,9 @@ int expression() {
     char token2[MAXLENGTH + 2], token3[MAXLENGTH + 2];
     if (strcmp(token, "ID") == 0) {
         fileadd = ftell(fin); // 记住当前文件位置
-        fscanf(fin, "%s %s %d %d\n", token2, token3, &wrow, &wcol);
-
+//        fscanf(fin, "%s %s %d %d\n", token2, token3, &wrow, &wcol);
+        fscanf(fin, "%d %d %s %s\n", &wrow, &wcol, token2, token3);
         printf("%s %s\n", token2, token3);
-
         if (strcmp(token2, "=") == 0) { //'='
             int address;
             es = lookup(token1, &address);

@@ -1,11 +1,12 @@
 {
-    int a,b,c;
-    read a;
-    int d;
-    d = a;
-    write a+2;
-    write a-2;
-    write a*2;
-    write a/2;
-    write a%2;
+    int a,b;
+    a = 2;
+    b = 3;
+    int c;
+    c = 4;
+    write "a:";
+    write a;
+    write "c:";
+    write c;
+    write "Hello          World         rr";
 }

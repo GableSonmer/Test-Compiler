@@ -1,27 +1,20 @@
-        IN   
-        STO   0
+        LOADI 2
+        STO 0
         POP
-        LOAD 0
-        STO 3
+        LOADI 3
+        STO 1
         POP
+        LOADI 4
+        STO 2
+        POP
+        OUTS a:
+
         LOAD 0
-        LOADI 2
-        ADD
         OUT
-        LOAD 0
-        LOADI 2
-        SUB
+        OUTS c:
+
+        LOAD 2
         OUT
-        LOAD 0
-        LOADI 2
-        MULT
-        OUT
-        LOAD 0
-        LOADI 2
-        DIV
-        OUT
-        LOAD 0
-        LOADI 2
-        MOD
-        OUT
+        OUTS Hello          World         rr
+
         STOP

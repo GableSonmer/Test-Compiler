@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.cpp
+lexical.h
+/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.h
+../tools/HashMap.h
+/Users/mysong/Documents/Test-Compiler/lib/tools/HashMap.h
+cstdio
+/Users/mysong/Documents/Test-Compiler/lib/lexical/cstdio
+cstring
+/Users/mysong/Documents/Test-Compiler/lib/lexical/cstring
+
+/Users/mysong/Documents/Test-Compiler/lib/lexical/lexical.h
+string
+-
+
 /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.cpp
 semantic.h
 /Users/mysong/Documents/Test-Compiler/lib/semantic/semantic.h
@@ -17,4 +31,10 @@ cstdio
 -
 string
 -
+
+/Users/mysong/Documents/Test-Compiler/lib/tools/HashMap.h
+string
+/Users/mysong/Documents/Test-Compiler/lib/tools/string
+iostream
+/Users/mysong/Documents/Test-Compiler/lib/tools/iostream
 
